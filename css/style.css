@@ -1,0 +1,55 @@
+@media (max-width:1200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .Userprofile {
+        padding: 10px;
+    }
+    .Userprofile>a>img {
+        width: 50px;
+    }
+    .navItem>ul,
+    .navItem>ul>li,
+    .navItem>ul>li>a {
+        margin: 0px 0px;
+        display: inline-flex;
+        font-size: 29px;
+        color: black;
+    }
+    nav {
+        position: fixed;
+        bottom: 0px;
+        background: rgb(255 255 255);
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0px -9px 9px 15px #80808000;
+    }
+    .mySliderItems>ul {
+        display: flex;
+        width: 100%;
+        overflow: scroll;
+        scroll-snap-align: start;
+        flex-shrink: 1;
+        transform-origin: center center;
+        scroll-snap-type: x mandatory;
+    }
+    .mySliderItems>ul>li {
+        display: inline-flex;
+    }
+    .slidItem>img {
+        height: 134px;
+        width: 319px;
+        margin: 0px 6px;
+        scroll-snap-align: start;
+        border-radius: 18px;
+    }
+    section {
+        padding: 20px 0px;
+    }
+}
