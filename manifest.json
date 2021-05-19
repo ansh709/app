@@ -7,17 +7,17 @@
     "theme_color": "black",
     "orientation": "portrait-primary",
     "icons": [{
-            "src": "/images/icon-72x72.png",
+            "src": "/images/logoBlack.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src": "/images/icon-96x96.png",
+            "src": "/images/logoBlack.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "/images/icons/icon-128x128.png",
+            "src": "/images/icons/logoBlack.png",
             "type": "image/png",
             "sizes": "128x128"
         }
